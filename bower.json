@@ -1,0 +1,11 @@
+{
+  "name": "Quore_code_test",
+  "homepage": "https://github.com/thatknitter/Quore_code_test",
+  "authors": [
+    "Kimberly Lewis <kblewis.flt@gmail.com>"
+  ],
+  "description": "Code test for Quore",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT"
+}

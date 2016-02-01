@@ -1,25 +1,28 @@
-<html>
-
+<!doctype html>
+<html lang="en-US" ng-app="quoreApp">
 <head>
-    <title>Angular 2 QuickStart</title>
-
-    <!-- 1. Load libraries -->
-    <!-- IE required polyfill -->
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
-    <script src="node_modules/angular2/bundles/angular2-all.umd.js"></script>
-
-    <!-- 2. Load our 'modules' -->
-    <script src='app/app.component.js'></script>
-    <script src='app/main.js'></script>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quore Code Test</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
-<!-- 3. Display the application -->
 <body>
-<my-app>Loading...</my-app>
-</body>
+<div class="container">
 
+    <div ng-view></div>
+</div>
+<script src="bower_components/firebase/firebase.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+<script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/config.js"></script>
+<script src="js/factories.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/constants.js"></script>
+</body>
 </html>
