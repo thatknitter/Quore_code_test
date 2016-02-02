@@ -3,9 +3,8 @@ body {
     Font-family: Helvetica Neue, Helvetica, Arial;
 }
 
-.topMost ul li{
+header ul li{
     display: inline;
-    margin-bottom: 100px;
 }
 
 .left {
@@ -56,8 +55,60 @@ li.greenText {
     padding-right: 30px;
 }
 
-.bar {
-    margin-top: 60px;
-    background-color: #F4F3F4;
+.leftHalf {
     width: 100%;
+    background-color: #f4f3f4;
+    height: 1000px;
+}
+
+.ticketBar {
+    background-color: #f4f3f4;
+    width: 100%;
+    height: 50px;
+    border-top: solid 2pt;
+    border-top-color: #E1E1E1;
+    border-bottom: solid 2pt;
+    border-bottom-color: #E1E1E1;
+    margin-top: 60px;
+}
+
+.searchbar {
+    width: 50%;
+    float: left;
+    background-color: #FFFFFF;
+    margin-left: -200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 75px;
+    padding-bottom: 20px;
+}
+
+.tasks ul{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.tasks ul li {
+    list-style-type: none;
+    font-size: 14pt;
+    margin-top: 20px;
+    border-bottom: solid 2pt;
+    border-bottom-color: #F2C482;
+    height: 40px;
+}
+
+.tasks {
+    background-color: #f4f3f4;
+    width: 50%;
+}
+
+.time {
+    float: right;
+    margin-top: -294px;
+    padding-right: 10px;
+}
+
+.modal {
+    width: 50%;
+    float: right;
 }
