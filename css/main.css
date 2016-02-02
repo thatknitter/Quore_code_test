@@ -1,4 +1,63 @@
-nav {
+body {
     width: 100%;
+    Font-family: Helvetica Neue, Helvetica, Arial;
+}
 
+.topMost ul li{
+    display: inline;
+    margin-bottom: 100px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+li.logo {
+    font-size: 18pt;
+}
+
+li.greenText {
+    color: #80AB56;
+    font-size: 18pt;
+}
+
+.hotel {
+    color: #B2B6B5;
+    padding-right: 15px;
+
+}
+
+.name {
+    padding-right: 15px;
+}
+
+.msgSprite, .mailSprite, .alarmSprite{
+    background: url("../img/icon-header.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 33px;
+    width: 37px;
+}
+
+.msgSprite {
+    background-position: 0px -38px;
+}
+
+.mailSprite {
+    background-position: -37px 0px;
+}
+
+.alarmSprite {
+    background-position: -74px 0px;
+    padding-right: 30px;
+}
+
+.bar {
+    margin-top: 60px;
+    background-color: #F4F3F4;
+    width: 100%;
 }
