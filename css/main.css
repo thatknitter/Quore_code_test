@@ -1,5 +1,4 @@
 body {
-    width: 100%;
     Font-family: Helvetica Neue, Helvetica, Arial;
 }
 
@@ -9,10 +8,12 @@ header ul li{
 
 .left {
     float: left;
+    margin-top: -50px;
 }
 
 .right {
     float: right;
+    margin-top: -60px;
 }
 
 li.logo {
@@ -108,7 +109,9 @@ li.greenText {
     padding-right: 10px;
 }
 
-.modal {
+#modal {
     width: 50%;
     float: right;
+    margin-top: -1000px;
+
 }
