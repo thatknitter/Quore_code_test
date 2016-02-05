@@ -1,5 +1,10 @@
 body {
     Font-family: Helvetica Neue, Helvetica, Arial;
+    background-color: #f4f3f4;
+}
+
+header {
+    background-color: #FFFFFF;
 }
 
 header ul li{
@@ -58,7 +63,6 @@ li.greenText {
 
 .leftHalf {
     width: 100%;
-    background-color: #f4f3f4;
     height: 1000px;
 }
 
@@ -92,12 +96,16 @@ li.greenText {
 .tasks ul li {
     list-style-type: none;
     font-size: 14pt;
-    margin-top: 20px;
+    padding-top: 20px;
     border-bottom: solid 2pt;
     border-bottom-color: #F2C482;
     height: 40px;
 }
 
+.tasks ul li:hover {
+    background-color: #4A8FE2;
+    color: #FFFFFF;
+}
 .tasks {
     background-color: #f4f3f4;
     width: 50%;
@@ -113,5 +121,94 @@ li.greenText {
     width: 50%;
     float: right;
     margin-top: -1000px;
+    background-color: #FFFFFF;
+}
 
+.topBar {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16pt;
+    color: #5C5C5C;
+    border-bottom: solid #4A8FE2;
+}
+
+.orderDets ul li {
+    list-style-type: none;
+}
+
+#modal table {
+    margin-top: 20px;
+    border-top: solid;
+    border-top-color: #E1E1E1;
+    padding: 20px;
+    padding-top: 45px;
+    font-size: 14pt;
+}
+
+#modal table tr td{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    float: left;
+}
+
+.leftCat ul li{
+    list-style-type: none;
+    color: #ACADB0;
+    text-align: right;
+    margin: 20px;
+}
+
+.leftCat2 ul li {
+    list-style-type: none;
+    color: #ACADB0;
+    text-align: right;
+    margin: 20px;
+}
+
+.leftCat2 ul li:last-child{
+    padding-bottom: 9px;
+}
+
+.rightCat ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.rightCat {
+    border-bottom: solid #E1E1E1;
+    margin-left: 5%;
+    margin-top: -1px;
+    width: 75%;
+}
+
+.rightCat2 ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.rightCat2 {
+    border-bottom: solid #E1E1E1;
+    margin-left: 5%;
+    margin-top: -1px;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.leftCat3 ul li {
+    list-style-type: none;
+    color: #ACADB0;
+    text-align: right;
+    margin: 20px;
+}
+
+.rightCat3 {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.rightStop {
+    text-align: right;
+    width: 50%;
+    margin-top: -50px;
 }
