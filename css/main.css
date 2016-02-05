@@ -61,6 +61,35 @@ li.greenText {
     padding-right: 30px;
 }
 
+.topBar ul {
+    float: right;
+    margin-top: -4px;
+}
+
+.newSprite, .trashSprite, .sendSprite, .attachSprite {
+    background: url("../img/icon-subnavi.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 33px;
+    width: 40px;
+}
+
+.newSprite {
+    background-position: -125px 0px;
+}
+
+.trashSprite {
+    background-position: -165px 0px;
+}
+
+.sendSprite {
+    background-position: -205px 0px;
+}
+
+.attachSprite {
+    background-position: 5px 0px;
+}
+
 .leftHalf {
     width: 100%;
     height: 1000px;
@@ -75,6 +104,10 @@ li.greenText {
     border-bottom: solid 2pt;
     border-bottom-color: #E1E1E1;
     margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 16pt;
+    color: #5C5C65;
 }
 
 .searchbar {
@@ -85,6 +118,8 @@ li.greenText {
     padding-top: 15px;
     padding-left: 75px;
     padding-bottom: 20px;
+    font-size: 16pt;
+    color: #E1E1E1;
 }
 
 .tasks ul{
@@ -235,4 +270,25 @@ li.greenText {
 
 .hidden {
     display: none;
+}
+
+.rightHalf {
+    width: 50%;
+    float: right;
+    background-color: #FFFFFF;
+    margin-top: -1050px;
+    height: 1050px;
+}
+
+.words p{
+    border: solid #E1E1E1;
+    border-radius: 10px;
+    font-size: 26pt;
+    color: #E1E1E1;
+    width: 500px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 20%;
 }
