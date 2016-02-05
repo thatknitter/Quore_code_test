@@ -81,15 +81,14 @@ li.greenText {
     width: 50%;
     float: left;
     background-color: #FFFFFF;
-    margin-left: -200px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    padding-top: 15px;
     padding-left: 75px;
     padding-bottom: 20px;
 }
 
 .tasks ul{
-    margin-top: 20px;
+    margin-top: 50px;
     padding-top: 10px;
 }
 
@@ -100,6 +99,10 @@ li.greenText {
     border-bottom: solid 2pt;
     border-bottom-color: #F2C482;
     height: 40px;
+}
+
+.tasks ul li:first-child {
+    margin-top: 20px;
 }
 
 .tasks ul li:hover {
@@ -113,14 +116,14 @@ li.greenText {
 
 .time {
     float: right;
-    margin-top: -294px;
+    margin-top: -344px;
     padding-right: 10px;
 }
 
 #modal {
     width: 50%;
     float: right;
-    margin-top: -1000px;
+    margin-top: -1050px;
     background-color: #FFFFFF;
 }
 
@@ -135,6 +138,23 @@ li.greenText {
 
 .orderDets ul li {
     list-style-type: none;
+    font-size: 14pt;
+    padding: 10px;
+}
+
+.pic {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+.orderDets ul li:nth-child(3) {
+    padding-left: 50px;
+}
+
+.orderDets ul li:last-child {
+    padding-left: 50px;
 }
 
 #modal table {
@@ -211,4 +231,8 @@ li.greenText {
     text-align: right;
     width: 50%;
     margin-top: -50px;
+}
+
+.hidden {
+    display: none;
 }
